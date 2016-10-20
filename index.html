@@ -1,0 +1,29 @@
+<html style="font-family: Courier";>
+
+<head>
+	<title>Temperature Converter</title>
+</head>
+<body>
+	<form id="myForm">
+		<h1 style="font-size: 1.5em">Temperature Converter</h1>
+		<fieldset style="width: 190px";>
+			<legend>Input</legend>
+				<input type="number" placeholder="Enter a temperature" name="startTemp" id="startingTemp"><br>
+				<input name="temper" type="radio" id="f"><label for="f"> Fahrenheit</label><br>
+				<input name="temper" type="radio" id="c"><label for="c"> Celsius</label><br>
+				<button type="button" id="converter">Submit</button>
+				<button type="button" id="resetButton">Reset</button>
+		</fieldset>
+		<fieldset style="width: 190px";>
+			<legend>Output</legend>
+			<div id="output" style="height:50px;background:lightgrey;font-size: 1em;"></div>
+			</fieldset>
+			<style>.red {color: red;}.blue{color: blue;}.green{color:green;}</style>
+	</form>
+<script src="converter.js"></script>
+</body>
+</html>
+
+
+
+
